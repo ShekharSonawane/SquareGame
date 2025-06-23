@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    background: #c5eb7a;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;/*it is important to centralize the elements*/
+    align-items: center;
+    justify-content: center;
+    margin: 100%;
+}
+
+.rect{
+    display: flex;
+}
+
+.shape{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;/*it is important to centralize the elements*/
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
